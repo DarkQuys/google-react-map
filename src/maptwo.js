@@ -34,11 +34,13 @@ function MapWithOverlay() {
           center={center}
           zoom={13}
         >
-            <GroundOverlay
-            url={Im} 
-            bounds={bounds}
-            options={{ opacity: opacity }}
-          />
+            <div style={{zIndex:'2'}}>
+              <GroundOverlay
+              url={Im} 
+              bounds={bounds}
+              options={{ opacity: opacity }}
+            />
+            </div>
         </GoogleMap>
         <input
           type="range"

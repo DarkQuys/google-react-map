@@ -15,9 +15,9 @@ function App() {
   const handleWheel = (event) => {
     event.preventDefault();
     if (event.deltaY < 0) {
-      setScale((prevScale) => Math.min(prevScale + 0.1, 3)); // Giới hạn phóng to tối đa là 3 lần
+      setScale((prevScale) => Math.min(prevScale + 0.1, 3)); 
     } else {
-      setScale((prevScale) => Math.max(prevScale - 0.1, 0.1)); // Giới hạn thu nhỏ tối thiểu là 0.1 lần
+      setScale((prevScale) => Math.max(prevScale - 0.1, 0.1));
     }
   };
   
@@ -30,8 +30,8 @@ function App() {
         alt="My Image" 
           style={{
             opacity: opacity, width: '850px', height: 'auto' ,
-            transform: `scale(${scale})`,
-            transition: 'transform 0.2s ease',
+            // transform: `scale(${scale})`,
+            // transition: 'transform 0.2s ease',
           }} 
           onWheel={handleWheel}
       />

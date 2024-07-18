@@ -45,6 +45,7 @@
   top:260px;
   right:590px;
   position : absolute ;
+  pointer-events:none
  
 }
 .kkk{
