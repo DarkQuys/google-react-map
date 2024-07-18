@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/google-react-map/static/css/main.27ca231c.css",
+    "main.js": "/google-react-map/static/js/main.b076720c.js",
+    "static/js/453.f8b42266.chunk.js": "/google-react-map/static/js/453.f8b42266.chunk.js",
+    "static/media/duan24h.net_BĐQHSDĐ_Dong_Anh_HN_2030.jpg": "/google-react-map/static/media/duan24h.net_BĐQHSDĐ_Dong_Anh_HN_2030.9802cedd723f38b29cb3.jpg",
+    "index.html": "/google-react-map/index.html",
+    "main.27ca231c.css.map": "/google-react-map/static/css/main.27ca231c.css.map",
+    "main.b076720c.js.map": "/google-react-map/static/js/main.b076720c.js.map",
+    "453.f8b42266.chunk.js.map": "/google-react-map/static/js/453.f8b42266.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27ca231c.css",
+    "static/js/main.b076720c.js"
+  ]
+}
